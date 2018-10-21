@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4thDigit", "4thDigit\4thDigit.csproj", "{CD261415-7DD8-42CC-89A3-93084B44986B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4thDigit", "4thDigit\4thDigit.csproj", "{CD261415-7DD8-42CC-89A3-93084B44986B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingToSunWithSoundSpeed", "TravelingToSunWithSoundSpeed\TravelingToSunWithSoundSpeed.csproj", "{AD6F3DCF-3FEC-4F24-8DCD-1BDD89251F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelingToSunWithSoundSpeed", "TravelingToSunWithSoundSpeed\TravelingToSunWithSoundSpeed.csproj", "{AD6F3DCF-3FEC-4F24-8DCD-1BDD89251F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateWeightInTheSolarSystem", "CalculateWeightInTheSolarSystem\CalculateWeightInTheSolarSystem.csproj", "{C3892980-FF83-4245-A024-877902BB81CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateWeightInTheSolarSystem", "CalculateWeightInTheSolarSystem\CalculateWeightInTheSolarSystem.csproj", "{C3892980-FF83-4245-A024-877902BB81CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecartCoordinates", "DecartCoordinates\DecartCoordinates.csproj", "{C6F51205-14E3-4247-B489-60434D3D892D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecartCoordinates", "DecartCoordinates\DecartCoordinates.csproj", "{C6F51205-14E3-4247-B489-60434D3D892D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{1D06C1F1-5696-4C09-9058-0139C0AF6655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketLuckyNumbers", "BusTicketLuckyNumbers\BusTicketLuckyNumbers.csproj", "{61CD5B9B-BA9E-4A56-A249-A304648F7A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiserPiggy", "MiserPiggy\MiserPiggy.csproj", "{823C42D7-343E-4AC3-8F29-592D1A0C5696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDeckOfCards", "SimpleDeckOfCards\SimpleDeckOfCards.csproj", "{D4EEDDE7-EC48-48C6-86F8-A120441311C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +41,26 @@ Global
 		{C6F51205-14E3-4247-B489-60434D3D892D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F51205-14E3-4247-B489-60434D3D892D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F51205-14E3-4247-B489-60434D3D892D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CD5B9B-BA9E-4A56-A249-A304648F7A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CD5B9B-BA9E-4A56-A249-A304648F7A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CD5B9B-BA9E-4A56-A249-A304648F7A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CD5B9B-BA9E-4A56-A249-A304648F7A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823C42D7-343E-4AC3-8F29-592D1A0C5696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823C42D7-343E-4AC3-8F29-592D1A0C5696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823C42D7-343E-4AC3-8F29-592D1A0C5696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823C42D7-343E-4AC3-8F29-592D1A0C5696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EEDDE7-EC48-48C6-86F8-A120441311C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EEDDE7-EC48-48C6-86F8-A120441311C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EEDDE7-EC48-48C6-86F8-A120441311C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EEDDE7-EC48-48C6-86F8-A120441311C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61CD5B9B-BA9E-4A56-A249-A304648F7A56} = {1D06C1F1-5696-4C09-9058-0139C0AF6655}
+		{823C42D7-343E-4AC3-8F29-592D1A0C5696} = {1D06C1F1-5696-4C09-9058-0139C0AF6655}
+		{D4EEDDE7-EC48-48C6-86F8-A120441311C2} = {1D06C1F1-5696-4C09-9058-0139C0AF6655}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D45323B0-96BE-47F7-9A00-295E732670C0}
